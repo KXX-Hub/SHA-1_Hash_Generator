@@ -4,7 +4,7 @@
 ## This is a user-friendly application designed to generate SHA-1 hashes for files, providing a reliable and efficient way to ensure file integrity.
 
 ## How to use
-- download the [latest release](https://github.com/KXX-Hub/SHA-1_Hash_Generator)  .
+- download the [latest release](https://github.com/KXX-Hub/SHA-1_Hash_Generator/release)  .
 - Fill the config file with the required information.
 - Run main.exe to generate the SHA-1 hashes.
 ### Requirements
