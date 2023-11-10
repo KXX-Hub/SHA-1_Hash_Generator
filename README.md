@@ -1,5 +1,70 @@
-# SHA-1 Hash Generator
-📖[English README.md](#SHA-1-Hash-Generator)📖
+# SHA-1-Hash-Generator-CN
+
+📖[English README.md](#SHA-1-Hash-Generator-EN)📖
+
+## 這是一款用戶友好的應用程式，專為生成檔案的 SHA-1 哈希而設計，提供可靠且高效的方式來確保檔案完整性。
+
+## 如何使用
+- 下載 [Release Note](https://github.com/KXX-Hub/SHA-1_Hash_Generator/release)。
+- 填寫配置檔案所需的資訊。
+- 執行 main.exe 以生成 SHA-1 Hash。
+### 系統要求
+- Python 3.6 或更高版本
+### 關於config
+```
+# file_directory: 指定要進行哈希處理的檔案所在的目錄路徑。
+# 如果未指明，預設為腳本當前所在的目錄。
+file_directory : ''
+
+# include_file: 要包含的檔案名稱列表，用 '&' 分隔。
+# 只有列在這裡的檔案會進行哈希處理。
+# 如果此處為空 ('')，則會處理目錄中的所有檔案。
+include_file : ''
+
+# exclude_file: 要排除的檔案名稱列表，用 '&' 分隔。
+# 列在這裡的檔案將不進行哈希處理。
+# 如果此處為空 ('')，則不排除任何檔案。
+exclude_file : ''
+
+# csv_file_directory: 輸出 CSV 檔案將被保存的目錄路徑。
+# 如果未指明，預設為腳本當前所在的目錄。
+csv_file_directory : ''
+
+# csv_file_name: 輸出 CSV 檔案的名稱。
+# 如果未指明，預設名稱將基於當前日期，後接 '_sha1'。
+csv_file_name : ''
+```
+## 貢獻於專案
+
+### 如何貢獻
+
+1. Fork 此專案。
+2. 將您 Fork 的專案克隆到您的本地機器。
+3. 創建一個新的分支。
+4. 貢獻您的代碼。
+5. 提交/推送您的代碼。
+6. 創建一個新的 Pull Request。
+7. 等待回應。
+
+### 代碼編寫/提交指南
+
+* 保持每行代碼在 100 個字元以內。
+* 變數和函數名稱使用 `snake_case` 命名方式。
+* 在檔案末尾添加一個空白行。
+* 優化代碼並移除不必要的導入。
+* 使用以下格式撰寫提交訊息，並用英文書寫：
+  * Update - 在此處寫入您的提交訊息
+  * Fix bug - 在此處寫入您的提交訊息
+  * Optimize - 在此處寫入您的提交訊息
+  * Standardize - 在此處寫入您的提交訊息
+
+### 建議/問題回報
+
+如果您有任何建議或發現任何問題，請在 [Issue](https://github.com/KXX-Hub/SHA-1_Hash_Generator/issues) 提交您的反饋，我會盡快回應！
+
+
+# SHA-1-Hash-Generator-EN
+📖[繁體中文版README.md](#SHA-1-Hash-Generator-CN)📖
 
 ## This is a user-friendly application designed to generate SHA-1 hashes for files, providing a reliable and efficient way to ensure file integrity.
 
@@ -8,7 +73,7 @@
 - Fill the config file with the required information.
 - Run main.exe to generate the SHA-1 hashes.
 ### Requirements
-- Python 3.6 or higher
+- Python 3.6 以上版本
 ### About Config
 ```
 # file_directory: The directory path of the files to be hashed.
