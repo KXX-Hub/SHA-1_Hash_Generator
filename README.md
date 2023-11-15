@@ -5,7 +5,7 @@
 ## 這是一款用戶友好的應用程式，專為生成檔案的 SHA-1 哈希而設計，提供可靠且高效的方式來確保檔案完整性。
 
 ## 如何使用
-- 下載 [Release Note](https://github.com/KXX-Hub/SHA-1_Hash_Generator/releases)。
+- 下載 [最新Release](https://github.com/KXX-Hub/SHA-1_Hash_Generator/releases)。
 - 填寫Config案所需的資訊。
 - 執行 main.exe 以生成 SHA-1 Hash。
 ### 系統要求
