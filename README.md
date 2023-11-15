@@ -6,7 +6,7 @@
 
 ## 如何使用
 - 下載 [Release Note](https://github.com/KXX-Hub/SHA-1_Hash_Generator/release)。
-- 填寫配置檔案所需的資訊。
+- 填寫Config案所需的資訊。
 - 執行 main.exe 以生成 SHA-1 Hash。
 ### 系統要求
 - Python 3.6 或更高版本
@@ -34,7 +34,7 @@ csv_file_directory : ''
 # 如果未指明，預設名稱將基於當前日期，後接 '_sha1'。
 csv_file_name : ''
 ```
-## 貢獻於專案
+## 貢獻專案
 
 ### 如何貢獻
 
@@ -71,9 +71,9 @@ csv_file_name : ''
 ## How to use
 - download the [latest release](https://github.com/KXX-Hub/SHA-1_Hash_Generator/release)  .
 - Fill the config file with the required information.
-- Run main.exe to generate the SHA-1 hashes.
+- Run SHA-1_Generator.exe to generate the SHA-1 hashes.
 ### Requirements
-- Python 3.6 以上版本
+- Python 3.6 or higher versions
 ### About Config
 ```
 # file_directory: The directory path of the files to be hashed.
