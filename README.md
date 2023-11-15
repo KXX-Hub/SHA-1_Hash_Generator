@@ -34,6 +34,14 @@ csv_file_directory : ''
 # 如果未指明，預設名稱將基於當前日期，後接 '_sha1'。
 csv_file_name : ''
 ```
+| 變數名稱              | 預設值                                             | 描述                                                         |
+|----------------------|----------------------------------------------------|-------------------------------------------------------------|
+| file_directory       | 腳本的當前目錄。                                   | 指定要進行哈希處理的檔案所在的目錄路徑。                     |
+| include_file         | ''（空字串）                                       | 要包含的檔案名稱列表，用 '&' 分隔。只有列在這裡的檔案會進行哈希處理。如果此處為空，則會處理目錄中的所有檔案。 |
+| exclude_file         | ''（空字串）                                       | 要排除的檔案名稱列表，用 '&' 分隔。列在這裡的檔案將不進行哈希處理。如果此處為空，則不排除任何檔案。         |
+| csv_file_directory   | 腳本的當前目錄。                                   | 輸出 CSV 檔案將被保存的目錄路徑。                            |
+| csv_file_name        | 基於當前日期，後接 '_sha1'。                        | 輸出 CSV 檔案的名稱。                                        |
+
 ## 貢獻專案
 
 ### 如何貢獻
@@ -98,6 +106,14 @@ csv_file_directory : ''
 # If not specified, the default name will be based on the current date followed by '_sha1'.
 csv_file_name : ''
 ```
+| Variable Name        | Default Value                                        | Description                                                  |
+|----------------------|------------------------------------------------------|--------------------------------------------------------------|
+| file_directory       | The current directory of the script.                 | The directory path of the files to be hashed.                |
+| include_file         | '' (empty string)                                    | List of file names to include for hashing, separated by '&'. Only files listed here will be processed. If empty, all files in the directory will be processed. |
+| exclude_file         | '' (empty string)                                    | List of file names to exclude from hashing, separated by '&'. Files listed here will not be processed. If empty, no files are excluded. |
+| csv_file_directory   | The current directory of the script.                 | The directory path where the output CSV file will be saved.  |
+| csv_file_name        | Based on the current date, followed by '_sha1'.      | The name of the output CSV file.                             |
+
 
 ## Contributing to the Project
 
