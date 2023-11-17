@@ -7,7 +7,7 @@
 ## 如何使用
 - 下載 [最新Release](https://github.com/KXX-Hub/SHA-1_Hash_Generator/releases)。
 - 填寫Config案所需的資訊。
-- 執行 main.exe 以生成 SHA-1 Hash。
+- 執行 SHA-1_Hash_Generator.exe 以生成 SHA-1 Hash。
 ### 系統要求
 - Python 3.6 或更高版本
 ### 關於config
